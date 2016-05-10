@@ -2,6 +2,6 @@ import React from 'react';
 
 export default React.createClass({
     render: function() {
-        this.props.children;
+        return this.props.children;
     }    
 });
